@@ -1,0 +1,11 @@
+{
+    "name": "hello",
+    "handler": {
+        "type": "ScriptableHandler",
+        "config": {
+            "type": "application/x-groovy",
+            "file": "hello.groovy"
+        }
+    },
+    "condition": "${matchesWithRegex(request.uri.path, '^/hello$')}"
+}
