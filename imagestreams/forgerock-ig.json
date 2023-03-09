@@ -14,7 +14,7 @@
                 "annotations": {
                     "openshift.io/display-name": "ForgeRock Identity Gateway 7.2.0",
                     "openshift.io/provider-display-name": "DarkEdges",
-                    "description": "Build and run ForgeRock 7.2.0 applications . For more information about using this builder image, including OpenShift considerations, see https://github.com/darkedges/s2i-forgerock.",
+                    "description": "Build and run ForgeRock Identity Gateway 7.2.0 applications. For more information about using this builder image, including OpenShift considerations, see https://github.com/darkedges/s2i-forgerock-ig.",
                     "iconClass": "icon-forgerock",
                     "tags": "builder,forgerock",
                     "version": "11",
