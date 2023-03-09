@@ -36,9 +36,6 @@ stop() {
 CMD="${1:-start}"
 
 case "$CMD" in
-devspace)
-    start
-    ;;
 start)
     start
     ;;

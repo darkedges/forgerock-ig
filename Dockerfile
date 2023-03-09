@@ -8,7 +8,7 @@ ADD ${FRIG_ARCHIVE_REPOSITORY_URL}${FRIG_ARCHIVE}  /var/tmp/frig.zip
 RUN unzip /var/tmp/frig.zip -d /var/tmp/
 
 # Runtime deployment
-ARG JRE_IMAGE=darkedeges/s2i-forgerock-jvm
+ARG JRE_IMAGE=darkedges/s2i-forgerock-jvm
 ARG JRE_TAG=11.0.18_10-jre-alpine
 ARG FORGEROCK_VERSION=7.2.0
 

@@ -3,7 +3,7 @@
 ## build
 
 ```console
-docker build . -t darkedeges/s2i-forgerock-ig:7.2.0
+docker build . -t darkedges/s2i-forgerock-ig:7.2.0
 ```
 
 ## smample
